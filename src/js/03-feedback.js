@@ -42,5 +42,7 @@ function onFormSubmit(evt) {
 
     evt.target.reset();
     localStorage.removeItem(STORAGE_KEY);
+
+    console.log(dataForm);
 }
 
